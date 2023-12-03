@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Add this to your global CSS file or a Tailwind CSS configuration file */
+.btn-like {
+    padding: 7px 10px;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    background-color: #7790ff;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-like:hover {
+    background-color: #4f4fb8;
+    font-size: large;;
+}

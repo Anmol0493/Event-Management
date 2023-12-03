@@ -1,0 +1,33 @@
+# This is Project's Structure
+
+client-side
+    ├── app
+        └──account
+            └──page.tsx
+        └──add-expense
+            └──page.tsx
+        └──components
+            └──Navbar.tsx
+        └──register
+            └──page.tsx
+        └──view-expenses
+            └──page.tsx
+        └──globals.css
+        └──layout.tsx
+        └──page.tsx
+    ├── public
+        └──images
+    ├── package.json
+
+server-side
+    ├── controller
+        └──UserController.ts
+    ├── middlewares
+        └──auth.ts
+    ├── model
+        └──User.ts
+    ├──routes
+        └──userRoutes.ts
+    ├── .env
+    ├── server.ts
+    ├── package.json
